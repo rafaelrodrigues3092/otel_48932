@@ -1,0 +1,260 @@
+{
+    "records": [
+        {
+            "time": "2026-06-16T15:05:09.0058820Z",
+            "correlationId": "43a44cc6-a6fc-4b27-8b55-7148d75a6fcd",
+            "level": "Informational",
+            "resultType": "Updated",
+            "operationName": "Microsoft.Resourcehealth/healthevent/Updated/action",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID_GUID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINES/<SCALESET_NAME>_5072F939",
+            "properties": {
+                "title": "Down: Virtual machine has been unavailable for 15 minutes",
+                "details": "Unknown",
+                "currentHealthStatus": "Unavailable",
+                "previousHealthStatus": "Unavailable",
+                "type": "Downtime",
+                "cause": "UserInitiated"
+            },
+            "category": "ResourceHealth",
+            "location": "global"
+        },
+        {
+            "RoleLocation": "South Central US",
+            "Stamp": "FDWorker2",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_DS5_V2",
+            "time": "2026-06-16T17:35:33.0530438Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID_GUID>/RESOURCEGROUPS/<RESOURCE_GROUP>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINES/<VM_NAME>",
+            "operationName": "MICROSOFT.COMPUTE/VIRTUALMACHINES/INSTALLPATCHES/ACTION",
+            "category": "Administrative",
+            "resultType": "Success",
+            "resultSignature": "Succeeded.",
+            "durationMs": "0",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "43a44cc6-a6fc-4b27-8b55-7148d75a6fcd",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP>/providers/Microsoft.Compute/virtualMachines/<VM_NAME>",
+                    "action": "Microsoft.Compute/virtualMachines/installPatches/action",
+                    "evidence": {
+                        "role": "Contributor",
+                        "roleAssignmentScope": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP>/providers/Microsoft.Compute/virtualMachines/<VM_NAME>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID_GUID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID_GUID>",
+                        "principalId": "<PRINCIPAL_ID_GUID>",
+                        "principalType": "User"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Information",
+            "properties": {
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP>/providers/Microsoft.Compute/virtualMachines/<VM_NAME>",
+                "message": "Microsoft.Compute/virtualMachines/installPatches/action",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID_GUID>"
+            },
+            "tenantId": "<TENANT_ID>",
+            "jobId": "ProxyResourceLongOperationJob:<JOBID>|DFEEA010B8DB133C",
+            "jobType": "ProxyResourceLongOperationJob"
+        },
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWeb2",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_D16d_v5",
+            "time": "2026-06-16T17:31:21.5045172Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID_GUID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/<SCALESET_NAME>",
+            "operationName": "MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/WRITE",
+            "category": "Administrative",
+            "resultType": "Start",
+            "resultSignature": "Started.",
+            "durationMs": "0",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "43a44cc6-a6fc-4b27-8b55-7148d75a6fcd",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                    "action": "Microsoft.Compute/virtualMachineScaleSets/write",
+                    "evidence": {
+                        "role": "Contributor",
+                        "roleAssignmentScope": "/providers/Microsoft.Management/managementGroups/<MGMT_GROUP>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID_GUID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID_GUID>",
+                        "principalId": "<PRINCIPAL_ID_GUID>",
+                        "principalType": "User"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Information",
+            "properties": {
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                "message": "Microsoft.Compute/virtualMachineScaleSets/write",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID_GUID>"
+            },
+            "tenantId": "<TENANT_ID>"
+        },
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWeb2",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_D16d_v5",
+            "time": "2026-06-16T17:31:22.4263869Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID_GUID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/<SCALESET_NAME>",
+            "operationName": "MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/WRITE",
+            "category": "Administrative",
+            "resultType": "Accept",
+            "resultSignature": "Accepted.OK",
+            "durationMs": "903",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "43a44cc6-a6fc-4b27-8b55-7148d75a6fcd",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                    "action": "Microsoft.Compute/virtualMachineScaleSets/write",
+                    "evidence": {
+                        "role": "Contributor",
+                        "roleAssignmentScope": "/providers/Microsoft.Management/managementGroups/<MGMT_GROUP>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID_GUID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID_GUID>",
+                        "principalId": "<PRINCIPAL_ID_GUID>",
+                        "principalType": "User"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Information",
+            "properties": {
+                "statusCode": "OK",
+                "serviceRequestId": null,
+                "responseBody": "{\"name\":\"<SCALESET_NAME>\",\"id\":\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>\",\"type\":\"Microsoft.Compute/virtualMachineScaleSets\",\"location\":\"eastus2\",\"tags\":{\"Tag1\":\"Value1\",\"Tag2\":\"Value2\"},\"identity\":{\"type\":\"UserAssigned\",\"userAssignedIdentities\":{\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.ManagedIdentity/userAssignedIdentities/<IDENTITY_NAME>\":{},\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.ManagedIdentity/userAssignedIdentities/<APP_GATEWAY_NAME>\":{}}},\"sku\":{\"name\":\"Mix\",\"capacity\":1},\"etag\":\"344\",\"properties\":{\"singlePlacementGroup\":false,\"highSpeedInterconnectPlacement\":\"None\",\"orchestrationMode\":\"Flexible\",\"upgradePolicy\":{\"mode\":\"Manual\",\"rollingUpgradePolicy\":{\"maxBatchInstancePercent\":50,\"maxUnhealthyInstancePercent\":50,\"maxUnhealthyUpgradedInstancePercent\":50,\"pauseTimeBetweenBatches\":\"PT0S\",\"enableCrossZoneUpgrade\":true,\"prioritizeUnhealthyInstances\":true,\"maxSurge\":true,\"rollbackFailedInstancesOnPolicyBreach\":false}},\"virtualMachineProfile\":{\"osProfile\":{\"computerNamePrefix\":\"<PREFIX>\",\"windowsConfiguration\":{\"provisionVMAgent\":true,\"enableAutomaticUpdates\":false,\"patchSettings\":{\"patchMode\":\"Manual\",\"assessmentMode\":\"ImageDefault\",\"enableHotpatching\":false},\"winRM\":{\"listeners\":[]},\"enableVMAgentPlatformUpdates\":true},\"secrets\":[],\"allowExtensionOperations\":true,\"requireGuestProvisionSignal\":true,\"adminUsername\":\"<adminusername>\"},\"storageProfile\":{\"osDisk\":{\"osType\":\"Windows\",\"createOption\":\"FromImage\",\"caching\":\"ReadWrite\",\"writeAcceleratorEnabled\":false,\"managedDisk\":{\"diskEncryptionSet\":{\"id\":\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/diskEncryptionSets/<SCALESET_NAME>\"},\"storageAccountType\":\"StandardSSD_LRS\"},\"deleteOption\":\"Delete\",\"diskSizeGB\":127},\"imageReference\":{\"id\":\"/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/galleries/<GALLERY_NAME>/images/<IMAGE_NAME>/versions/2026.06.011937\"},\"dataDisks\":[{\"lun\":10,\"createOption\":\"Empty\",\"caching\":\"ReadWrite\",\"writeAcceleratorEnabled\":false,\"managedDisk\":{\"diskEncryptionSet\":{\"id\":\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/diskEncryptionSets/<SCALESET_NAME>\"},\"storageAccountType\":\"StandardSSD_LRS\"},\"deleteOption\":\"Delete\",\"diskSizeGB\":128}],\"diskControllerType\":\"SCSI\"},\"networkProfile\":{\"networkApiVersion\":\"2020-11-01\",\"networkInterfaceConfigurations\":[{\"name\":\"<SCALESET_NAME>-vmss-nic\",\"properties\":{\"primary\":true,\"enableAcceleratedNetworking\":false,\"disableTcpStateTracking\":false,\"effectiveEnableAcceleratedNetworking\":false,\"enableIPForwarding\":false,\"delegateIpAllocation\":false,\"auxiliaryMode\":\"None\",\"auxiliarySku\":\"None\",\"nicAuxiliarySkuBillingNotificationType\":\"NoOp\",\"deleteOption\":\"Delete\",\"ipConfigurations\":[{\"name\":\"<SCALESET_NAME>-vmss-nic-cfg\",\"properties\":{\"privateIPAddressVersion\":\"IPv4\",\"subnet\":{\"id\":\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Network/virtualNetworks/<VNET_NAME>/subnets/<SUBNET>\"},\"primary\":true,\"applicationSecurityGroups\":[],\"loadBalancerBackendAddressPools\":[],\"applicationGatewayBackendAddressPools\":[{\"id\":\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Network/applicationGateways/<APP_GATEWAY_NAME>/backendAddressPools/<APP_GATEWAY_NAME>-beap\"}]}}],\"dnsSettings\":{\"dnsServers\":[]}}}]},\"diagnosticsProfile\":{\"bootDiagnostics\":{\"enabled\":true,\"storageUri\":\"https://<blob>.blob.core.windows.net/\"}},\"extensionProfile\":{\"extensions\":[{\"name\":\"DependencyAgentWindows\",\"properties\":{\"autoUpgradeMinorVersion\":true,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.Azure.Monitoring.DependencyAgent\",\"type\":\"DependencyAgentWindows\",\"typeHandlerVersion\":\"9.10\"}},{\"name\":\"KVVMExtensionForWindows\",\"properties\":{\"autoUpgradeMinorVersion\":false,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.Azure.KeyVault\",\"type\":\"KeyVaultForWindows\",\"typeHandlerVersion\":\"3.0\",\"settings\":\"******\"}},{\"name\":\"dscScript\",\"properties\":{\"autoUpgradeMinorVersion\":true,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.Powershell\",\"type\":\"DSC\",\"typeHandlerVersion\":\"2.8\",\"settings\":\"******\"}},{\"name\":\"HealthExtension\",\"properties\":{\"autoUpgradeMinorVersion\":false,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.ManagedServices\",\"type\":\"ApplicationHealthWindows\",\"typeHandlerVersion\":\"1.0\",\"settings\":\"******\"}},{\"name\":\"AzureMonitorWindowsAgent\",\"properties\":{\"autoUpgradeMinorVersion\":true,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.Azure.Monitor\",\"type\":\"AzureMonitorWindowsAgent\",\"typeHandlerVersion\":\"1.0\",\"settings\":\"******\"}},{\"name\":\"DomainJoinExtension\",\"properties\":{\"autoUpgradeMinorVersion\":true,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.Compute\",\"type\":\"JsonADDomainExtension\",\"typeHandlerVersion\":\"1.3\",\"settings\":\"******\"}}],\"extensionsTimeBudget\":\"PT1H30M\"},\"priority\":\"Regular\",\"scheduledEventsProfile\":{\"terminateNotificationProfile\":{\"notBeforeTimeout\":\"PT15M\",\"enable\":true}},\"securityProfile\":{\"encryptionAtHost\":true},\"timeCreated\":\"2026-06-16T17:31:22.1825415+00:00\"},\"additionalCapabilities\":{\"ultraSSDEnabled\":false},\"provisioningState\":\"Updating\",\"uniqueId\":\"5d7fafd2-08b9-4944-882e-d9e8ca9fe8cb\",\"zoneBalance\":true,\"platformFaultDomainCount\":1,\"automaticRepairsPolicy\":{\"enabled\":true,\"gracePeriod\":\"PT10M\"},\"constrainedMaximumCapacity\":false,\"skuProfile\":{\"vmSizes\":[{\"name\":\"Standard_D16as_v5\"}],\"allocationStrategy\":\"LowestPrice\"},\"timeCreated\":\"2026-04-10T13:45:57.4140903+00:00\"},\"zones\":[\"2\",\"3\",\"1\"]}",
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                "message": "Microsoft.Compute/virtualMachineScaleSets/write",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID_GUID>"
+            },
+            "tenantId": "<TENANT_ID>"
+        },
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWeb3",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_D16d_v5",
+            "time": "2026-06-16T15:13:53.5161554Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID_GUID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/<SCALESET_NAME>",
+            "operationName": "MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/WRITE",
+            "category": "Administrative",
+            "resultType": "Start",
+            "resultSignature": "Started.",
+            "durationMs": "0",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "43a44cc6-a6fc-4b27-8b55-7148d75a6fcd",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                    "action": "Microsoft.Compute/virtualMachineScaleSets/write",
+                    "evidence": {
+                        "role": "Contributor",
+                        "roleAssignmentScope": "/providers/Microsoft.Management/managementGroups/<MGMT_GROUP>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID_GUID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID_GUID>",
+                        "principalId": "<PRINCIPAL_ID_GUID>",
+                        "principalType": "User"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Information",
+            "properties": {
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                "message": "Microsoft.Compute/virtualMachineScaleSets/write",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID_GUID>"
+            },
+            "tenantId": "<TENANT_ID>"
+        },
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWeb3",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_D16d_v5",
+            "time": "2026-06-16T15:13:54.0630240Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID_GUID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/<SCALESET_NAME>",
+            "operationName": "MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/WRITE",
+            "category": "Administrative",
+            "resultType": "Accept",
+            "resultSignature": "Accepted.OK",
+            "durationMs": "482",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "43a44cc6-a6fc-4b27-8b55-7148d75a6fcd",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                    "action": "Microsoft.Compute/virtualMachineScaleSets/write",
+                    "evidence": {
+                        "role": "Contributor",
+                        "roleAssignmentScope": "/providers/Microsoft.Management/managementGroups/<MGMT_GROUP>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID_GUID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID_GUID>",
+                        "principalId": "<PRINCIPAL_ID_GUID>",
+                        "principalType": "User"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Information",
+            "properties": {
+                "statusCode": "OK",
+                "serviceRequestId": null,
+                "responseBody": "{\"name\":\"<SCALESET_NAME>\",\"id\":\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>\",\"type\":\"Microsoft.Compute/virtualMachineScaleSets\",\"location\":\"eastus2\",\"tags\":{\"Tag1\":\"Value1\",\"Tag2\":\"Value2\"},\"identity\":{\"type\":\"UserAssigned\",\"userAssignedIdentities\":{\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.ManagedIdentity/userAssignedIdentities/<IDENTITY_NAME>\":{},\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.ManagedIdentity/userAssignedIdentities/<APP_GATEWAY_NAME>\":{}}},\"sku\":{\"name\":\"Mix\",\"capacity\":1},\"etag\":\"344\",\"properties\":{\"singlePlacementGroup\":false,\"highSpeedInterconnectPlacement\":\"None\",\"orchestrationMode\":\"Flexible\",\"upgradePolicy\":{\"mode\":\"Manual\",\"rollingUpgradePolicy\":{\"maxBatchInstancePercent\":50,\"maxUnhealthyInstancePercent\":50,\"maxUnhealthyUpgradedInstancePercent\":50,\"pauseTimeBetweenBatches\":\"PT0S\",\"enableCrossZoneUpgrade\":true,\"prioritizeUnhealthyInstances\":true,\"maxSurge\":true,\"rollbackFailedInstancesOnPolicyBreach\":false}},\"virtualMachineProfile\":{\"osProfile\":{\"computerNamePrefix\":\"<PREFIX>\",\"windowsConfiguration\":{\"provisionVMAgent\":true,\"enableAutomaticUpdates\":false,\"patchSettings\":{\"patchMode\":\"Manual\",\"assessmentMode\":\"ImageDefault\",\"enableHotpatching\":false},\"winRM\":{\"listeners\":[]},\"enableVMAgentPlatformUpdates\":true},\"secrets\":[],\"allowExtensionOperations\":true,\"requireGuestProvisionSignal\":true,\"adminUsername\":\"<adminusername>\"},\"storageProfile\":{\"osDisk\":{\"osType\":\"Windows\",\"createOption\":\"FromImage\",\"caching\":\"ReadWrite\",\"writeAcceleratorEnabled\":false,\"managedDisk\":{\"diskEncryptionSet\":{\"id\":\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/diskEncryptionSets/<SCALESET_NAME>\"},\"storageAccountType\":\"StandardSSD_LRS\"},\"deleteOption\":\"Delete\",\"diskSizeGB\":127},\"imageReference\":{\"id\":\"/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/galleries/<GALLERY_NAME>/images/<IMAGE_NAME>/versions/2026.06.011937\"},\"dataDisks\":[{\"lun\":10,\"createOption\":\"Empty\",\"caching\":\"ReadWrite\",\"writeAcceleratorEnabled\":false,\"managedDisk\":{\"diskEncryptionSet\":{\"id\":\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/diskEncryptionSets/<SCALESET_NAME>\"},\"storageAccountType\":\"StandardSSD_LRS\"},\"deleteOption\":\"Delete\",\"diskSizeGB\":128}],\"diskControllerType\":\"SCSI\"},\"networkProfile\":{\"networkApiVersion\":\"2020-11-01\",\"networkInterfaceConfigurations\":[{\"name\":\"<SCALESET_NAME>-vmss-nic\",\"properties\":{\"primary\":true,\"enableAcceleratedNetworking\":false,\"disableTcpStateTracking\":false,\"effectiveEnableAcceleratedNetworking\":false,\"enableIPForwarding\":false,\"delegateIpAllocation\":false,\"auxiliaryMode\":\"None\",\"auxiliarySku\":\"None\",\"nicAuxiliarySkuBillingNotificationType\":\"NoOp\",\"deleteOption\":\"Delete\",\"ipConfigurations\":[{\"name\":\"<SCALESET_NAME>-vmss-nic-cfg\",\"properties\":{\"privateIPAddressVersion\":\"IPv4\",\"subnet\":{\"id\":\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Network/virtualNetworks/<VNET_NAME>/subnets/<SUBNET>\"},\"primary\":true,\"applicationSecurityGroups\":[],\"loadBalancerBackendAddressPools\":[],\"applicationGatewayBackendAddressPools\":[{\"id\":\"/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Network/applicationGateways/<APP_GATEWAY_NAME>/backendAddressPools/<APP_GATEWAY_NAME>-beap\"}]}}],\"dnsSettings\":{\"dnsServers\":[]}}}]},\"diagnosticsProfile\":{\"bootDiagnostics\":{\"enabled\":true,\"storageUri\":\"https://<blob>.blob.core.windows.net/\"}},\"extensionProfile\":{\"extensions\":[{\"name\":\"DependencyAgentWindows\",\"properties\":{\"autoUpgradeMinorVersion\":true,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.Azure.Monitoring.DependencyAgent\",\"type\":\"DependencyAgentWindows\",\"typeHandlerVersion\":\"9.10\"}},{\"name\":\"KVVMExtensionForWindows\",\"properties\":{\"autoUpgradeMinorVersion\":false,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.Azure.KeyVault\",\"type\":\"KeyVaultForWindows\",\"typeHandlerVersion\":\"3.0\",\"settings\":\"******\"}},{\"name\":\"dscScript\",\"properties\":{\"autoUpgradeMinorVersion\":true,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.Powershell\",\"type\":\"DSC\",\"typeHandlerVersion\":\"2.8\",\"settings\":\"******\"}},{\"name\":\"HealthExtension\",\"properties\":{\"autoUpgradeMinorVersion\":false,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.ManagedServices\",\"type\":\"ApplicationHealthWindows\",\"typeHandlerVersion\":\"1.0\",\"settings\":\"******\"}},{\"name\":\"AzureMonitorWindowsAgent\",\"properties\":{\"autoUpgradeMinorVersion\":true,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.Azure.Monitor\",\"type\":\"AzureMonitorWindowsAgent\",\"typeHandlerVersion\":\"1.0\",\"settings\":\"******\"}},{\"name\":\"DomainJoinExtension\",\"properties\":{\"autoUpgradeMinorVersion\":true,\"provisionAfterExtensions\":[],\"forceUpdateTag\":\"\",\"suppressFailures\":false,\"publisher\":\"Microsoft.Compute\",\"type\":\"JsonADDomainExtension\",\"typeHandlerVersion\":\"1.3\",\"settings\":\"******\"}}],\"extensionsTimeBudget\":\"PT1H30M\"},\"priority\":\"Regular\",\"scheduledEventsProfile\":{\"terminateNotificationProfile\":{\"notBeforeTimeout\":\"PT15M\",\"enable\":true}},\"securityProfile\":{\"encryptionAtHost\":true},\"timeCreated\":\"2026-06-16T17:31:22.1825415+00:00\"},\"additionalCapabilities\":{\"ultraSSDEnabled\":false},\"provisioningState\":\"Updating\",\"uniqueId\":\"5d7fafd2-08b9-4944-882e-d9e8ca9fe8cb\",\"zoneBalance\":true,\"platformFaultDomainCount\":1,\"automaticRepairsPolicy\":{\"enabled\":true,\"gracePeriod\":\"PT10M\"},\"constrainedMaximumCapacity\":false,\"skuProfile\":{\"vmSizes\":[{\"name\":\"Standard_D16as_v5\"}],\"allocationStrategy\":\"LowestPrice\"},\"timeCreated\":\"2026-04-10T13:45:57.4140903+00:00\"},\"zones\":[\"2\",\"3\",\"1\"]}",
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                "message": "Microsoft.Compute/virtualMachineScaleSets/write",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID_GUID>"
+            },
+            "tenantId": "<TENANT_ID>"
+        },
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWorker",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_DS5_V2",
+            "time": "2026-06-16T15:13:52.4899249Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID_GUID>/RESOURCEGROUPS/<RESOURCE_GROUP>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/<SCALESET_NAME>",
+            "operationName": "MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/READ",
+            "category": "Administrative",
+            "resultType": "Unknown",
+            "resultSignature": "Running.",
+            "durationMs": "0",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "43a44cc6-a6fc-4b27-8b55-7148d75a6fcd",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                    "action": "Microsoft.Compute/virtualMachineScaleSets/write",
+                    "evidence": {
+                        "role": "Insights Management Service Role",
+                        "roleAssignmentScope": "/subscriptions/<SUBSCRIPTION_ID_GUID>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID_GUID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID_GUID>",
+                        "principalId": "<PRINCIPAL_ID_GUID>",
+                        "principalType": "ServicePrincipal"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Information",
+            "properties": {
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourcegroups/<RESOURCE_GROUP>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                "message": "Microsoft.Compute/virtualMachineScaleSets/read",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID_GUID>"
+            },
+            "tenantId": "<TENANT_ID>",
+            "jobId": "ResourceLongOperationJob-GRL-<JOBID>-EASTUS2-00639172184308718024-syncIdentity",
+            "jobType": "ResourceLongOperationJob"
+        }
+    ]
+}
