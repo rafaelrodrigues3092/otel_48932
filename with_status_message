@@ -1,0 +1,249 @@
+{
+    "records": [
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWorker",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_DS5_V2",
+            "time": "2026-06-16T15:08:25.2411999Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID_GUID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINES/<SCALESET_NAME>_70288887/EXTENSIONS/DSCSCRIPT",
+            "operationName": "MICROSOFT.COMPUTE/VIRTUALMACHINES/EXTENSIONS/WRITE",
+            "category": "Administrative",
+            "resultType": "Failure",
+            "resultSignature": "Failed.",
+            "durationMs": "0",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "43a44cc6-a6fc-4b27-8b55-7148d75a6fcd",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachines/<SCALESET_NAME>_70288887/extensions/dscScript",
+                    "action": "Microsoft.Compute/virtualMachines/extensions/write",
+                    "evidence": {
+                        "role": "Azure Compute Resource Provider Service Role",
+                        "roleAssignmentScope": "/subscriptions/<SUBSCRIPTION_ID_GUID>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID_GUID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID_GUID>",
+                        "principalId": "<PRINCIPAL_ID_GUID>",
+                        "principalType": "ServicePrincipal"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Error",
+            "properties": {
+                "statusMessage": "{\"status\":\"Failed\",\"error\":{\"code\":\"ResourceOperationFailure\",\"message\":\"The resource operation completed with terminal provisioning state 'Failed'.\",\"details\":[{\"code\":\"VMExtensionProvisioningError\",\"message\":\"VM has reported a failure when processing extension 'dscScript' (publisher 'Microsoft.Powershell' and type 'DSC'). Error message: 'DSC Configuration 'DscConfig' completed with error(s). Following are the first few: An exception occurred during ConfigureOneFile for deploymentEntityBackgroundJobEngine2 ,configurationFileType: app.config ,configurationFile:_PublishedApplications\\\\APP\\\\Quartz.Server.exe.config ,relTemplatePath:WebOrAppConfigFileTemplate.r ,relOverrideConfigFile:BackgroundEngine2.exe.Config ,serviceEndpointName:  : Message: Could not find a part of the path 'C:\\\\App\\\\Site\\\\_PublishedApplications\\\\App\\\\Quartz.Server.exe.config'. StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)'. More information on troubleshooting is available at https://aka.ms/VMExtensionDSCWindowsTroubleshoot\"}]}}",
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourcegroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachines/<SCALESET_NAME>_70288887/extensions/dscScript",
+                "message": "Microsoft.Compute/virtualMachines/extensions/write",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID_GUID>"
+            },
+            "tenantId": "<TENANT_ID>",
+            "jobId": "ResourceLongOperationJob-GRL-<JOBID>:5F70288887:2FEXTENSIONS:2FDSCSCRIPT-EASTUS2-00639172177672730787",
+            "jobType": "ResourceLongOperationJob"
+        },
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWeb",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_DS5_V2",
+            "time": "2026-06-16T15:14:40.9256102Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID_GUID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/<SCALESET_NAME>",
+            "operationName": "MICROSOFT.RESOURCES/TAGS/WRITE",
+            "category": "Administrative",
+            "resultType": "Failure",
+            "resultSignature": "Failed.Conflict",
+            "durationMs": "693",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "43a44cc6-a6fc-4b27-8b55-7148d75a6fcd",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>/providers/Microsoft.Resources/tags/default",
+                    "action": "Microsoft.Resources/tags/write",
+                    "evidence": {
+                        "role": "Contributor",
+                        "roleAssignmentScope": "/providers/Microsoft.Management/managementGroups/<MGMT_GROUP>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID_GUID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID_GUID>",
+                        "principalId": "<PRINCIPAL_ID_GUID>",
+                        "principalType": "User"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Error",
+            "properties": {
+                "statusCode": "Conflict",
+                "serviceRequestId": null,
+                "statusMessage": "{\"error\":{\"code\":\"ProviderError\",\"message\":\"{\\\"error\\\":{\\\"code\\\":\\\"OperationNotAllowed\\\",\\\"message\\\":\\\"Virtual Machine Scale Set updates are not allowed while there is a Rolling Upgrade in progress. There is an ongoing customer initiated rolling upgrade of type: \\\\\\\"Latest Model Upgrade\\\\\\\". This rolling upgrade started on 6/16/2026 3:14:21 PM +00:00. To continue making updates, wait for the current rolling upgrade to complete or cancel the rolling upgrade. Refer https://learn.microsoft.com/en-us/rest/api/compute/virtual-machine-scale-set-rolling-upgrades/cancel.\\\"}}\"}}",
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID_GUID>/resourcegroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                "message": "Microsoft.Resources/tags/write",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID_GUID>"
+            },
+            "tenantId": "<TENANT_ID>"
+        },
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWeb3",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_D16d_v5",
+            "time": "2026-06-16T18:23:19.2792021Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/<SCALESET_NAME>",
+            "operationName": "MICROSOFT.COMPUTE/VIRTUALMACHINESCALESETS/OSROLLINGUPGRADE/ACTION",
+            "category": "Administrative",
+            "resultType": "Failure",
+            "resultSignature": "Failed.Conflict",
+            "durationMs": "45",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "4eb8c0c2-af01-48a0-b6c4-46f02c4b2330",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                    "action": "Microsoft.Compute/virtualMachineScaleSets/osRollingUpgrade/action",
+                    "evidence": {
+                        "role": "Contributor",
+                        "roleAssignmentScope": "/providers/Microsoft.Management/managementGroups/<MGMT_GROUP>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID>",
+                        "principalId": "<PRINCIPAL_ID>",
+                        "principalType": "User"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Error",
+            "properties": {
+                "statusCode": "Conflict",
+                "serviceRequestId": null,
+                "statusMessage": "{\"error\":{\"code\":\"OperationNotAllowed\",\"message\":\"Operation 'osRollingUpgrade' is not allowed on Virtual Machine Scale Set '<SCALESET_NAME>'.\"}}",
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachineScaleSets/<SCALESET_NAME>",
+                "message": "Microsoft.Compute/virtualMachineScaleSets/osRollingUpgrade/action",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID>"
+            },
+            "tenantId": "<TENANT_ID>"
+        },
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWeb3",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_D16d_v5",
+            "time": "2026-06-16T18:30:35.0002503Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.COMPUTE/SNAPSHOTS/<SNAPSHOT_NAME>",
+            "operationName": "MICROSOFT.COMPUTE/SNAPSHOTS/DELETE",
+            "category": "Administrative",
+            "resultType": "Failure",
+            "resultSignature": "Failed.Conflict",
+            "durationMs": "145",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "4eb8c0c2-af01-48a0-b6c4-46f02c4b2330",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/snapshots/<SNAPSHOT_NAME>",
+                    "action": "Microsoft.Compute/snapshots/delete",
+                    "evidence": {
+                        "role": "WizCustomRole-root",
+                        "roleAssignmentScope": "/providers/Microsoft.Management/managementGroups/<TENANT_ID>",
+                        "roleAssignmentId": "965ea3aae7bd4deaa1647dce077f9ceb",
+                        "roleDefinitionId": "9140f0315f744de9a7aa411d6eb9d9fd",
+                        "principalId": "1a0f3ebe5b81459c9570904fdcfb3611",
+                        "principalType": "ServicePrincipal"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Error",
+            "properties": {
+                "statusCode": "Conflict",
+                "serviceRequestId": null,
+                "statusMessage": "{\"error\":{\"code\":\"OperationNotAllowed\",\"message\":\"There is an active shared access signature outstanding for snapshot <SNAPSHOT_NAME>. Call EndGetAccess before deleting the snapshot.\"}}",
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/snapshots/<SNAPSHOT_NAME>",
+                "message": "Microsoft.Compute/snapshots/delete",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID>"
+            },
+            "tenantId": "<TENANT_ID>"
+        },
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWeb",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_DS5_V2",
+            "time": "2026-06-16T14:29:32.1322244Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.RESOURCES/DEPLOYMENTS/<POLICY_NAME>",
+            "operationName": "MICROSOFT.RESOURCES/DEPLOYMENTS/WRITE",
+            "category": "Administrative",
+            "resultType": "Success",
+            "resultSignature": "Succeeded.",
+            "durationMs": "0",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "4eb8c0c2-af01-48a0-b6c4-46f02c4b2330",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID>/resourcegroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Resources/deployments/<POLICY_NAME>",
+                    "action": "Microsoft.Resources/deployments/write",
+                    "evidence": {
+                        "role": "Log Analytics Contributor",
+                        "roleAssignmentScope": "/subscriptions/<SUBSCRIPTION_ID>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID>",
+                        "principalId": "<PRINCIPAL_ID>",
+                        "principalType": "ServicePrincipal"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Information",
+            "properties": {
+                "statusCode": "Created",
+                "statusMessage": "{\"provisioningState\":\"Accepted\"}",
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Resources/deployments/<POLICY_NAME>",
+                "message": "Microsoft.Resources/deployments/write",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID>"
+            },
+            "tenantId": "<TENANT_ID>"
+        },
+        {
+            "RoleLocation": "East US 2",
+            "Stamp": "FDWorker",
+            "ReleaseVersion": "7.2026.20.4+83b034a.release_2026w20",
+            "VmSku": "Standard_DS5_V2",
+            "time": "2026-06-16T14:37:51.7330213Z",
+            "resourceId": "/SUBSCRIPTIONS/<SUBSCRIPTION_ID>/RESOURCEGROUPS/<RESOURCE_GROUP_NAME>/PROVIDERS/MICROSOFT.COMPUTE/VIRTUALMACHINES/<SCALESET_NAME>_FFE7F31B/PROVIDERS/MICROSOFT.INSIGHTS/DATACOLLECTIONRULEASSOCIATIONS/ASSOC-XP2JRY2LKR7V6",
+            "operationName": "MICROSOFT.INSIGHTS/DATACOLLECTIONRULEASSOCIATIONS/WRITE",
+            "category": "Administrative",
+            "resultType": "Failure",
+            "resultSignature": "Failed.NotFound",
+            "durationMs": "569",
+            "callerIpAddress": "000.000.000.000",
+            "correlationId": "4eb8c0c2-af01-48a0-b6c4-46f02c4b2330",
+            "identity": {
+                "authorization": {
+                    "scope": "/subscriptions/<SUBSCRIPTION_ID>/resourcegroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachines/<SCALESET_NAME>_ffe7f31b/providers/Microsoft.Insights/dataCollectionRuleAssociations/assoc-xp2jry2lkr7v6",
+                    "action": "Microsoft.Insights/dataCollectionRuleAssociations/write",
+                    "evidence": {
+                        "role": "Monitoring Contributor",
+                        "roleAssignmentScope": "/subscriptions/<SUBSCRIPTION_ID>",
+                        "roleAssignmentId": "<ROLE_ASSIGNMENT_ID>",
+                        "roleDefinitionId": "<ROLE_DEFINITION_ID>",
+                        "principalId": "<PRINCIPAL_ID>",
+                        "principalType": "ServicePrincipal"
+                    }
+                },
+                "claims": {}
+            },
+            "level": "Error",
+            "properties": {
+                "statusCode": "NotFound",
+                "serviceRequestId": null,
+                "statusMessage": "{\"error\":{\"code\":\"ResourceNotFound\",\"message\":\"The Resource 'Microsoft.Compute/virtualMachines/<SCALESET_NAME>_ffe7f31b' under resource group '<RESOURCE_GROUP_NAME>' was not found. For more details please go to https: //aka.ms/ARMResourceNotFoundFix\"}}",
+                "eventCategory": "Administrative",
+                "entity": "/subscriptions/<SUBSCRIPTION_ID>/resourcegroups/<RESOURCE_GROUP_NAME>/providers/Microsoft.Compute/virtualMachines/<SCALESET_NAME>_ffe7f31b/providers/Microsoft.Insights/dataCollectionRuleAssociations/assoc-xp2jry2lkr7v6",
+                "message": "Microsoft.Insights/dataCollectionRuleAssociations/write",
+                "hierarchy": "<TENANT_ID>/<MGMT_GROUP>/<MGMT_GROUP>/<MGMT_GROUP>/<SUBSCRIPTION_ID>"
+            },
+            "tenantId": "<TENANT_ID>"
+        }
+    ]
+}
